@@ -12,6 +12,7 @@
     "mongodb": "^2.2.16"
   },
   "devDependencies": {},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dretorrente/coen3463-m1t5.git"
@@ -20,5 +21,6 @@
     "url": "https://github.com/dretorrente/coen3463-m1t5/issues"
   },
   "homepage": "https://github.com/dretorrente/coen3463-m1t5#readme",
+
   "description": ""
 }
