@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dretorrente/coen3463-m1t5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dretorrente/coen3463-m1t5/issues"
+  },
+  "homepage": "https://github.com/dretorrente/coen3463-m1t5#readme",
+  "description": ""
+}

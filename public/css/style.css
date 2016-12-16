@@ -1,0 +1,52 @@
+.nav-item img {
+	max-height: 60px !important;
+    margin-left: 100px !important;
+}
+
+
+.main-content {
+    padding: 40px 15px;
+}
+#section2 {
+    background-color: grey;
+}
+#footerHome {
+    background-color: lightgray;
+}
+#navHome {
+    background-color: lightgray;
+}
+.hero-body {
+    padding: 0px 0px;
+}
+
+#divBlog{
+    padding: 0px;
+}
+#divBlog > .column {
+    padding: 10px;
+}
+#titleCourse {
+    margin-left: 50px;
+}
+
+.software {
+    overflow-x: hidden !important;
+}
+#evil {
+    font-size: 50px !important;
+}
+.dave {
+    padding: 0px;
+}
+
+.cheska {
+    padding: 0px;
+}
+
+/*.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}*/
