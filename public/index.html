@@ -4,41 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="widt=device-width, initial-scale=1">
-    <title>Chat</title>
-    <link rel="stylesheet" href="/css/bulma.css"/>
-    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/bulma.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
-<section class="hero is-primary">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">
-                Home Page
-            </h1>
-            <h2 class="subtitle">
-            </h2>
-        </div>
-    </div>
-</section>
-<nav class="nav">
+
+<nav class="nav" id="navHome">
     <div class="nav-left">
         <a class="nav-item is-brand" href="#">
-            <img src="/images/luffy.jpg" alt="Bulma logo">
+            <img src="/images/EG.jpg" alt="Bulma logo">
+            <h1 class="title" id="titleCourse">
+                COEN3463: Software Engineering
+            </h1>
         </a>
     </div>
 
-    <div class="nav-center">
-        <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="fa fa-github"></i>
-      </span>
-        </a>
-        <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="fa fa-twitter"></i>
-      </span>
-        </a>
-    </div>
+
 
   <span class="nav-toggle">
     <span></span>
@@ -50,12 +32,14 @@
         <a class="nav-item is-active" href="/">
             Home
         </a>
-        <a class="nav-item" href="/admin/rooms.html">
-            Chat Rooms
+        <a class="nav-item" href="member-Torrente.html">
+           Profile 1
         </a>
-        <a class="nav-item" href="/admin/users">
-            Users
+        <a class="nav-item" href="member-Villasanta.html">
+           Profile 2
         </a>
+
+
 
         <!--  <span class="nav-item">
            <a class="button" >
@@ -73,11 +57,78 @@
          </span> -->
     </div>
 </nav>
-<div class="container">
-    <div class="main-content">
-        <h1>Index Html</h1>
+
+<section class="hero is-primary" id="section2">
+<div class="columns">
+        <div class="column" align="center">
+            <div class="main-content">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="/images/dave.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-5">Dave Torrente</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            Hi I'm Dave Robert E. Torrente and I'm awesome!
+                            <br>
+                            <small>email me at dave.torrente@gmail.com</small>
+                        </div>
+                    </div>
+                    <h1>Member 1</h1>
+                </div>
+            </div>
+
+    </div>
+    <div class="column" align="center">
+        <div class="main-content">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="/images/FBV.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-5">Francesca Villasanta</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        Hi I'm Francesca Villsanta Computer Engineering student at Polytechnic University
+                        of the Philippines!
+                        <br>
+                        <small>email me at fbvilssanta@gmail.com</small>
+                    </div>
+                </div>
+                <h1>Member 2</h1>
+            </div>
+        </div>
     </div>
 </div>
+</section>
+<footer class="footer" id="footerHome">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>COEN3463 First Module</strong> by Dave Torrente and Francesca Villasanta</a>.The website content
+                is licensed.
+            </p>
+            <p>
+                <a class="icon" href="https://github.com/dretorrente/coen3463-m1t5">
+                    <img src="/images/git.png" alt="github logo" id="github">
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
 
 </body>
+
+
 </html>

@@ -1,8 +1,39 @@
 .nav-item img {
 	max-height: 60px !important;
+    margin-left: 100px !important;
 }
 
 
 .main-content {
     padding: 40px 15px;
+}
+#section2 {
+    background-color: grey;
+}
+#footerHome {
+    background-color: lightgray;
+}
+#navHome {
+    background-color: lightgray;
+}
+.hero-body {
+    padding: 0px 0px;
+}
+
+#divBlog{
+    padding: 0px;
+}
+#divBlog > .column {
+    padding: 10px;
+}
+#titleCourse {
+    margin-left: 50px;
+}
+#name1 {
+    color: blue;
+
+}
+#name2 {
+    color: blue;
+
 }
