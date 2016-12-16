@@ -1,7 +1,6 @@
 {
   "name": "myapp",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "app.js"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dretorrente/sampleNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dretorrente/sampleNode/issues"
+  },
+  "homepage": "https://github.com/dretorrente/sampleNode#readme",
+  "description": ""
 }
