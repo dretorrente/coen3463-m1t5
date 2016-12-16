@@ -37,3 +37,9 @@
     color: blue;
 
 }
+.software {
+    overflow-x: hidden !important;
+}
+#evil {
+    font-size: 50px !important;
+}
