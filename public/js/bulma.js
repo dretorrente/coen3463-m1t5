@@ -8,3 +8,15 @@
         menu.classList.toggle('is-active');
     });
 })();
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var headerHeight = $('nav').height();
+        if($(window).scrollTop() > headerHeight) {
+            $('nav.nav').addClass('navbar-fixed');
+        } else if($(window).scrollTop() < headerHeight) {
+            $('nav.nav').removeClass('navbar-fixed');
+        }
+    });
+});
+

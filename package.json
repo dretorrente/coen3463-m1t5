@@ -8,10 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "mongodb": "^2.2.16"
+    "mongodb": "^2.2.16",
+    "request": "^2.79.0"
   },
   "devDependencies": {},
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dretorrente/coen3463-m1t5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dretorrente/coen3463-m1t5/issues"
+  },
+  "homepage": "https://github.com/dretorrente/coen3463-m1t5#readme",
   "description": ""
 }

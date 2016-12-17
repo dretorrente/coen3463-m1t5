@@ -13,9 +13,23 @@
 #footerHome {
     background-color: lightgray;
 }
-#navHome {
-    background-color: lightgray;
+
+nav > .software
+{
+z-index: 99;
 }
+
+a.navLinks:hover {
+    background: #22957a;
+
+}
+a.navLinks {
+    font-family: MyriadProSemiBold;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
 .hero-body {
     padding: 0px 0px;
 }
@@ -42,4 +56,24 @@
 
 .cheska {
     padding: 0px;
+}
+
+/*.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}*/
+div#picSec > #picid {
+    align-items:stretch;
+}
+
+#thankyou_message {
+    display:none;
+}
+.heroDave {
+    min-height: 0px !important;
+}
+.heroText{
+min-height: 0px !important;
 }
